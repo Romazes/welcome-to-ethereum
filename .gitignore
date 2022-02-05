@@ -10,3 +10,7 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Dependency directories
+node_modules/
+jspm_packages/

@@ -1,0 +1,25 @@
+{
+  "name": "welcome-to-ethereum",
+  "version": "1.0.0",
+  "description": "Ethereum is the technology powering the cryptocurrency ether (ETH) and decentralized applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romazes/welcome-to-ethereum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romazes/welcome-to-ethereum/issues"
+  },
+  "homepage": "https://github.com/Romazes/welcome-to-ethereum#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "dotenv": "^16.0.0"
+  }
+}
