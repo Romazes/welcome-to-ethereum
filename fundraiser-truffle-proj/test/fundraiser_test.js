@@ -122,5 +122,17 @@ contract("Fundraiser", (accounts) => {
 
         assert.equal(actualEvent, expectedEvent, "events should match");
     });
+
+    it("make a lot of donation", async (start = 3, end = 7) => {
+      for(let i = start; i < end; i++) {
+        await fundraiser.donate({ from: accounts[i], value});
+      }
+
+      for(let i = start; i < end - start; i++) {
+        const { values, dates } = await fundraiser.myDonations({ from: accounts[i] });
+        assert.equal(value, values[0], "values should match");
+        assert(dates[0], "date should be present");
+      }
+    });
   });
 });
