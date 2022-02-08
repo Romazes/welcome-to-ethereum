@@ -20,7 +20,10 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.4.2",
     "@truffle/hdwallet-provider": "^2.0.3",
+    "bignumber.js": "^9.0.2",
     "dotenv": "^16.0.0",
-    "truffle": "^5.4.32"
+    "truffle": "^5.4.32",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-plugin-verify": "^0.5.21"
   }
 }
